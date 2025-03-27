@@ -47,7 +47,7 @@ def count_matches_advanced(text, konstrukce, zkouska_raw, stanice_raw):
             match_count += 1
             st.markdown(f"✅ **Shoda nalezena:** `{line.strip()}`")
         else:
-            st.markdown(f"{debug_status} → `{line.strip()}`")}`")
+            st.markdown(f"{debug_status} → `{line.strip()}`"))
     st.markdown(f"**Celkem nalezeno:** `{match_count}` záznamů")
     return match_count
 
